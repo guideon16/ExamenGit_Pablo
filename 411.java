@@ -14,18 +14,18 @@ public class e411 {
 		int cont=0;
 		int pesotela = 0;
 		
-		while (true) {
+	
 			
-			while (numElefantes != 0) {
+			while (numElefantes != 0 && numElefante<pesoElefante) {
 				
-				if (numElefantes<pesoElefante) {
+				
 					cont++;
-					System.out.print(cont);
-					break;
-				}
+					
 				
-				else {
-				System.out.print("sacabó");
+				}
+				System.out.print(cont);
+				if (numElefantes ==0 && numEelfante>pesoEfante){
+				
 					break;
 	
 					
@@ -33,8 +33,8 @@ public class e411 {
 					
 			}
 			
-				
-	
+}				
+}	
 		}
 			
 			
