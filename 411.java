@@ -12,20 +12,19 @@ public class e411 {
 		int numElefantes = sc.nextInt();
 		int pesoElefante = sc.nextInt();
 		int cont=0;
-		int pesotela = 0;
+		
 		
 		while (true) {
 			
-			while (numElefantes != 0) {
+			while (numElefantes != 0 && numElefantes<pesoElefante) {
 				
-				if (numElefantes<pesoElefante) {
+				
 					cont++;
 					System.out.print(cont);
 					break;
 				}
+				if(numElefantes == 0 && numElefantes>pesoElefante) {
 				
-				else {
-				System.out.print("sacabó");
 					break;
 	
 					
@@ -39,4 +38,4 @@ public class e411 {
 			
 			
 }
-	}}
+	}
